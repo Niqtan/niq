@@ -44,7 +44,7 @@
             <h1 class="mt-0" style="font-size: 30px; font-family: Cal Sans;">Niq Suguitan</h1>
       <ul class="nav justify-content-center gap-3 mt-1">
         <li class="links"><a href="#about">About</a></li>
-        <li class="links"><a href="#contact">Personal Projects</a></li>
+        <li class="links"><a href="#project">Personal Projects</a></li>
       </ul>
     </div>
   </div>
@@ -54,8 +54,9 @@
     <!-- Content Sections -->
 
       <!-- About Section -->
-      <div class="row mb-3" id="about">
-        <div class="col-lg-3 col-sm-5 col-xs-4"> 
+      <div id="about" class="content-region hide">
+        <div class="row mb-3" id="about">
+        <div class="col-lg-6 col-sm-5 col-xs-4"> 
           <div class="box">
             <p class="title" style="font-family: Cal Sans; ">What's up!</p>
           </div>
@@ -64,10 +65,10 @@
 
       <!-- Intro! & Projects -->
         <div class="row">
-          <div class="col-lg-12 col-sm-12 col-12"> 
+          <div class="col-lg-12 col-sm-12 col-12 p-15"> 
                 <div class="box"> 
                   <p class="content">
-                    I’m Niq, an aspiring technologist based in the Philippines with a passion to lead and inspire. My current focus is on exploring and tinkering in the world of electronics. Besides that, I am also a programmer.
+                    I'm Niq, a Filipino aspiring technologist with leadership aspirations and a passion for electronics and programming. My work bridges innovation with inspiration, creating technology that makes a difference.
                   </p>
                   <p class="role-title">
                     Organization President - Ateneo JHS Computer Club
@@ -101,40 +102,78 @@
                   <p class="content">
                     Contact me at <a href="mailto:niqban123@gmail.com">niqban123@gmail.com</a>
                   </p>
-                <div id="contact" class="content-region hide">
-                  <p class="content">
-                    One of the projects I’m working on right now is Obstacle Detecting Glasses. This project aims to help individuals navigate through spaces more easily by detecting obstacles in their environment. I’m super excited about how this could help people, especially those with vision impairments or those who just want a bit more safety in their daily routines.
-                  </p>
-
-                  <div class="ratio ratio-16x9">
-                    <iframe width="895" height="503" src="https://www.youtube.com/embed/mGvRfI-a0dM" title="Pagtingin Glasses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                   </div>
-                  
-                  <p class="content"> More information on <a href="https://github.com/Niqtan/Pagtingin">GitHub</a></p>
-                  <p class="content">Note: Project is currently in progress and PCB is being made.</p>
                 </div>
-      
+              </div>
+
+              <div id="project" class="content-region hide">
+                <div class="row">
+                  <div class="col-lg-12 col-sm-12 col-12 p-15"> 
+                        <div class="box">
+                          <p class="role-title" style="text-align:  center; font-size: 2rem;">
+                            Pagtingin Prototype
+                          </p> 
+                <p class="content">
+                  One of the projects I’m working on right now is Obstacle Detecting Glasses. This project aims to help individuals navigate through spaces more easily by detecting obstacles in their environment. I’m super excited about how this could help people, especially those with vision impairments or those who just want a bit more safety in their daily routines.
+                </p>
+
+                <div class="ratio ratio-16x9">
+                  <iframe width="895" height="503" src="https://www.youtube.com/embed/mGvRfI-a0dM" title="Pagtingin Glasses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-          </div>
+                
+                <p class="content"> More information on <a href="https://github.com/Niqtan/Pagtingin">GitHub</a></p>
+                <p class="content">                  Update: Obstacle Detecting Glasses now entering production phase! PCB fabrication in underway. Stay tuned for for it!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              </div>
         </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
+      </div>
     </div>
 
-    <footer>  
-      Links:
-      <ul>
-        <li class="links"> <a href="mailto:niqban123@gmail.com">Email</a></li>
-        <li class="links"> <a href="https://github.com/Niqtan">GitHub</a></li>
-        <li class="links"> <a  href="https://www.linkedin.com/in/niqsuguitan/">LinkedIn</a></li>
-        <li class="links"> <a href="https://www.facebook.com/profile.php?id=100089539342665">Facebook</a></li>
 
-      </ul>
+    <footer class="bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+          data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+         
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
     </footer>
     
     <!-- Load additional JS scripts here -->
