@@ -54,9 +54,6 @@ body {
 
 
     @media (min-width: 576px) {
-      body::before {
-        content: "SM";
-      }
       .title,
       .role-title,
       .content {
@@ -68,9 +65,6 @@ body {
     }
     
     @media (min-width: 768px) {
-      body::before {
-        content: "MD";
-      }
       .title,
     .role-title,
     .content {
@@ -88,21 +82,12 @@ body {
     }
     
     @media (min-width: 992px) {
-      body::before {
-        content: "LG";
-      }
     }
     
     @media (min-width: 1200px) {
-      body::before {
-        content: "XL";
-      }
     }
     
     @media (min-width: 1400px) {
-      body::before {
-        content: "XXL";
-      }
       .title,
       .role-title,
       .content {
