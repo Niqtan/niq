@@ -11,130 +11,75 @@
   
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./src/output.css" rel="stylesheet">
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   </head>
   
   <body>
 
     <!-- Header Section -->
     
-    <header class="text-center d-flex flex-column align-items-center py-4">
-        
-    <div class="container my-5">
-      <div class="row mb-1">
-          <div class="col"> 
-            <div class="box">
-          <div class="rounded-circle" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 250px; background-image: url('https://i.postimg.cc/6QTbDR6s/logo.png'); background-position: center; object-fit: cover;">
-          </div>
-            <h1 class="mt-0" style="font-size: 30px; font-family: Cal Sans;">Niq Suguitan</h1>
-      <ul class="nav justify-content-center gap-3 mt-1">
-        <li class="links"><a href="#about">About</a></li>
-        <li class="links"><a href="#project">Personal Projects</a></li>
-      </ul>
-    </div>
+    <section class="h-screen bg-cover bg-center flex items-center justify-center"
+    style="background-image: url('Screenshots/image-1.png');">
+    <div class="text-center text-black">
+    <h1 class="text-9xl font-bold font-monsieur mb-6">Niq Suguitan</h1>
+      <p class ="text-5xl font-courierprime mb-6 p-4">Student Engineer, <br> Researcher, <br> & Content Creator <br> @ ADMU</p>
   </div>
-</div>                 
-    </header>
+    </section>
+    
    
-    <!-- Content Sections -->
+    <!-- Scrapbook Canvas -->
 
-      <!-- About Section -->
-      <div id="about" class="content-region hide">
+      <!-- Project Title -->
+      <section class="h-screen bg-cover bg-center flex items-center justify-center">
         <div class="row mb-3" id="about">
         <div class="col-lg-6 col-sm-5 col-xs-4"> 
           <div class="box">
-            <p class="title" style="font-family: Cal Sans; ">What's up!</p>
+            <p class="title font-courierprime font-bold">I AM A...</p>
           </div>
           </div>
-        </div>
 
       <!-- Intro! & Projects -->
-        <div class="row">
-          <div class="col-lg-12 col-sm-12 col-12 p-15"> 
-                <div class="box"> 
-                  <p class="content">
-                    I'm Niq, a Filipino aspiring technologist with leadership aspirations and a passion for electronics and programming. My work bridges innovation with inspiration, creating technology that makes a difference.
-                  </p>
-                  <p class="role-title">
-                    Organization President - Ateneo JHS Computer Club
-                  </p>
-                  <p class="content">
-                    SY 25-26 (Incoming) <br> 
-
-                    I am the incoming organization president of the Ateneo Computer Club of my Junior High School for the SY 25-26.
-                    <Br>The Ateneo Computer Club prepares Ateneans to become competent and well-rounded individuals in technology by providing opportunities to learn,
-                      collaborate, and lead. Besides teaching them to be competent, it encourages Ateneans to appreciate and enjoy creating projects.
-                  </p>
-                  <p class="role-title">
-                    Volunteer Coordinator – DEVCON Manila Chapter
-                  </p>
-                  <p class="content">
-                    April 2025 – Present <br>
-                    At DEVCON's Manila Chapter, I am one of the volunteer coordinators, responsible for leading and overseeing volunteers for DEVCON Manila's events. 
-
-                  </p>
-
-                  <p class="role-title">
-                    Digital Marketing Intern – Niq's Fitness Gym
-                  </p>
-                  <p class="content">
-                    May 2024 –  November 2024<br>
-                    During the summer, I was able to intern with one of my father's businesses, a local gym, where I gained hands-on experience on the digital marketing.
-                    During my time there, I was able to produce creatives, metric success using variety marketing tools, and a community of like-minded individuals.
-                    
-
-                  </p>
-                  <p class="content">
-                    Contact me at <a href="mailto:niqban123@gmail.com">niqban123@gmail.com</a>
-                  </p>
-                    </div>
+                <div class="container font-courierprime">
+                    <div class="p-15 border bg-[url('/Screenshots/2.jpg')] bg-cover bg-center">
+                    <p class="content">
+                      Hobbyist
+                    </p>
+                  </div>
+                  <div class="p-15 border">
+                    <p class="content">
+                      Programmer
+                    </p>
+                  </div>
+                  <div class="p-15 border">
+                    <p class="content">
+                      Filmmaker
+                    </p>
+                  </div>
+                  <div class="p-15 border">
+                    <p class="content">
+                      Photographer
+                    </p>
+                  </div>
+                  <div class="p-15 border">
+                    <p class="content">
+                      Advocate in the tech community
+                    </p>
                   </div>
                 </div>
-              </div>
-
-              <div id="project" class="content-region hide">
-                <div class="row">
-                  <div class="col-lg-12 col-sm-12 col-12 p-15"> 
-                        <div class="box">
-                          <p class="role-title" style="text-align:  center; font-size: 2rem;">
-                            Pagtingin Prototype
-                          </p> 
-                <p class="content">
-                  One of the projects I’m working on right now is Obstacle Detecting Glasses. This project aims to help individuals navigate through spaces more easily by detecting obstacles in their environment. I’m super excited about how this could help people, especially those with vision impairments or those who just want a bit more safety in their daily routines.
-                </p>
-
-                <div class="ratio ratio-16x9">
-                  <iframe width="895" height="503" src="https://www.youtube.com/embed/mGvRfI-a0dM" title="Pagtingin Glasses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                
-                <p class="content"> More information on <a href="https://github.com/Niqtan/Pagtingin">GitHub</a></p>
-                <p class="content">                  Update: Obstacle Detecting Glasses now entering production phase! PCB fabrication in underway. Stay tuned for for it!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-              </div>
-        </div>
-      </div>
-    </div>
-
+          </section>
 
     <footer class="bg-body-tertiary text-center">
       <!-- Grid container -->
@@ -178,9 +123,5 @@
       <!-- Grid container -->
     
     </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
   </body>
 </html>
