@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Monsieur;
+  src: url("../src/assets/fonts/MonsieurLaDoulaise-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../src/assets/fonts/Inter-VariableFont_opsz\,wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@import "tailwindcss";
+
+@theme {
+  --font-monsieur: Monsieur, "sans-serif";
+  --font-inter: Inter, "sans-serif";
+}
