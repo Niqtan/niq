@@ -1,11 +1,16 @@
+import ParticlesComponent from "./particles.jsx"
 export default function About() {
     return (
-        <section className="relative min-h-screen w-full bg-black overflow-hidden flex flex-col items-centered justify-center text-white font-vt323">
-            <div className="max-w-3x1">
+        <>
+        <div className="fixed inset-0 -z-10">
+            <ParticlesComponent id="particles" />
+        </div>
+        <section className="fixed inset-0 flex flex-col items-center justify-center text-white font-vt323"> 
+            <div className="text-[#39FF14] max-w-3x1">
                 <p>Hi I'm Niq! A student from the Ateneo De Manila University</p>
                 <h1 className="text-9xl font-bold mb-6">I AM A...</h1>
             </div>
-            <div className="">
+            <div className="text-[#39FF14]">
                     <div className="">
                         <p className="">
                         Hobbyist
@@ -33,5 +38,6 @@ export default function About() {
                     </div>
                 </div>
         </section>
+        </>
     )
 }

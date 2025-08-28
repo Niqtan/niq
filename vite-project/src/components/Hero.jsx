@@ -1,9 +1,9 @@
 export default function Hero() {
     return (
     <section
-      className="h-[60vh]  flex items-center justify-center">
+      className="h-[100vh]  flex items-center justify-center">
     <video
-      className="absolute object-cover h-[70vh] w-full left-0 top-0 z-10"
+      className="absolute object-cover h-[100vh] w-full left-0 top-0 z-10"
       autoPlay
       loop
       muted 
