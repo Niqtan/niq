@@ -62,7 +62,7 @@ export default function About() {
                     <div id="filmmaker" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Filmmaker</p>
                         <video
-                        className="object-cover w-sm h-[20rem] lg:h-[20rem]  rounded-md "
+                        className="object-cover w-sm h-[20rem] lg:h-[25rem]  rounded-md "
                         autoPlay
                         loop
                         muted 
