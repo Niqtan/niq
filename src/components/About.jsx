@@ -72,7 +72,7 @@ export default function About() {
                     </div>
                     <div id="photographer" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Photographer</p>
-                        <img src="/About/photographer.JPG" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem]  rounded-md "/>
+                        <img src="./About/photographer.JPG" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem]  rounded-md "/>
                     </div>
                     <div  id="advocate" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Student Leader</p>
