@@ -3,12 +3,12 @@ export default [
         id: 1,
         section: "hobbyist",
         img: {
-            src: "/glasses.jpg",
+            src: "./glasses.jpg",
             alt: "Wearing Obstacle Detecting Glasses"
         },
         heading: "My Projects",
         projimg: {
-            src: "/Contents/Pagtingin.png",
+            src: "./Contents/Pagtingin.png",
             alt: "Obstacle Detecting Glasses Magazine Page"
         },
         title: "Pagtingin",
@@ -20,7 +20,7 @@ export default [
         id: 2,
         section: "hobbyist",
         projimg: {
-            src: "/Contents/side1.png",
+            src: "./Contents/side1.png",
             alt: "Side View of Hilaw"
         },
         title: "Hilaw",
@@ -32,12 +32,12 @@ export default [
         id: 3,
         section: "programmer",
         img: {
-            src: "/About/programmer.png",
+            src: "./About/programmer.png",
             alt: "Someone coding faced their back"
         },
         heading: "My Projects",
         projimg: {
-            src: "/Contents/website.png",
+            src: "./Contents/website.png",
             alt: "Website with name and titles of Niq"
         },
         title: "Niq's Personal Website",
@@ -49,12 +49,12 @@ export default [
         id: 4,
         section: "researcher",
         img: {
-            src: "/About/researcher.jpg",
+            src: "./About/researcher.jpg",
             alt: "Someone coding faced their back"
         },
         heading: "My Papers",
         projimg: {
-            src: "/Contents/research.png",
+            src: "./Contents/research.png",
             alt: "Website with name and titles of Niq"
         },
         title: "Obstacle-Detecting Glasses with Audio Feedback for the Visually Impaired",
@@ -66,12 +66,12 @@ export default [
         id: 5,
         section: "filmmaker",
         img: {
-            src: "/Contents/staticfilm.jpg",
+            src: "./Contents/staticfilm.jpg",
             alt: "two perspectives of a man looking at a window"
         },
         heading: "My Films",
         projimg: {
-            src: "/Contents/film.png",
+            src: "./Contents/film.png",
             alt: "Thumbnail for the youtube video",
         },
         title: "I travelled 9000 MILES for this...",
@@ -82,12 +82,12 @@ export default [
         id: 6,
         section: "photographer",
         img: {
-            src: "/About/photographer.JPG",
+            src: "./About/photographer.JPG",
             alt: "Fisheye lens picture in the airplane"
         },
         heading: "My Photos",
         projimg: {
-            src: "/Contents/vietnam.jpg",
+            src: "./Contents/vietnam.jpg",
             alt: "A busy road of a beautiful nignt"
         },
         title: "'The Rising Sun'",
@@ -97,7 +97,7 @@ export default [
         id: 7,
         section: "photographer",
         projimg: {
-            src: "/Contents/photo2.JPG",
+            src: "./Contents/photo2.JPG",
             alt: "A shining light complemented with a flagpole"
         },
         title: "'The Rising Moon'",
@@ -107,7 +107,7 @@ export default [
         id: 8,
         section: "photographer",
         projimg: {
-            src: "/Contents/photo3.jpg",
+            src: "./Contents/photo3.jpg",
             alt: "Portrait of me in the roads of hiroshima"
         },
         title: "Ghost Hunter",
@@ -117,12 +117,12 @@ export default [
         id: 9,
         section: "advocate",
         img: {
-            src: "/About/github.jpg",
+            src: "./About/github.jpg",
             alt: "Picture of me with the github octocat"
         },
         heading: "Organizations I'm a part of",
         projimg: {
-            src: "/Contents/HCP.jpg",
+            src: "./Contents/HCP.jpg",
             alt: "People smiling as a team"
         },
         title: "Hack Club Philippines Core",
@@ -134,7 +134,7 @@ export default [
         id: 10,
         section: "advocate",
         projimg: {
-            src: "/Contents/ACC.jpg",
+            src: "./Contents/ACC.jpg",
             alt: "Person smiling portrait"
         },
         title: "Ateneo Computer Club President",
@@ -145,7 +145,7 @@ export default [
         id: 11,
         section: "advocate",
         projimg: {
-            src: "/Contents/DEVCON.jpg",
+            src: "./Contents/DEVCON.jpg",
             alt: "People smiling as a team"
         },
         title: "DEVCON Manila Volunteer Coordinator",

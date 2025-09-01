@@ -1,6 +1,3 @@
-import { useState } from "react"
-import About from "./About";
-
 export default function CardsContent(prop) {
     return (
     <article className="h-screen rounded-lg shadow-lg border border-gray-800 p-1">

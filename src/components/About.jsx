@@ -49,15 +49,15 @@ export default function About() {
             <div style={{cursor: "pointer", }} className="flex gap-5  text-[#39FF14] grid grid-cols-2" >
                     <div id="hobbyist" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Hobbyist</p>
-                        <img src="/glasses.jpg" alt="Visually impaired wearing obstacle detection" className="w-sm h-[20rem] object-cover rounded-md "/>
+                        <img src="./glasses.jpg" alt="Visually impaired wearing obstacle detection" className="w-sm h-[20rem] object-cover rounded-md "/>
                     </div>
                     <div id="programmer" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Programmer</p>
-                        <img src="/About/programmer.png" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem]  rounded-md "/>
+                        <img src="./About/programmer.png" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem]  rounded-md "/>
                     </div>
                      <div id="researcher" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Researcher</p>
-                        <img src="/About/researcher.jpg" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem]  rounded-md "/>
+                        <img src="./About/researcher.jpg" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem]  rounded-md "/>
                     </div>
                     <div id="filmmaker" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Filmmaker</p>
@@ -67,7 +67,7 @@ export default function About() {
                         loop
                         muted 
                         playsinline>
-                        <source src="/About/advocate.mp4" type="video/mp4" />
+                        <source src="./About/advocate.mp4" type="video/mp4" />
                         </video>
                     </div>
                     <div id="photographer" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
@@ -76,7 +76,7 @@ export default function About() {
                     </div>
                     <div  id="advocate" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Student Leader</p>
-                        <img src="/About/github.jpg" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem] lg:h-[25rem]  rounded-md "/>
+                        <img src="./About/github.jpg" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem] lg:h-[25rem]  rounded-md "/>
                     </div>
                 </div>
             </div>

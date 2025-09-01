@@ -10,7 +10,7 @@ export default function Hero() {
       loop
       muted 
       playsinline>
-        <source src="/Hero/video.mp4" type="video/mp4" />
+        <source src="./Hero/video.mp4" type="video/mp4" />
       </video>
       <div className="text-center text-white">
         <h1 className="ease-in-out relative text-9xl font-bold font-monsieur mb-6 z-20">Niq Suguitan</h1>
