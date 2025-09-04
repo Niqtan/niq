@@ -28,7 +28,7 @@ export default function Hero() {
                 ]}
                 wrapper="span"
                 speed={25}
-                style={{ fontSize: '1em', display: 'inline-block' }}
+                style={{ fontSize: '0.7em', display: 'inline-block' }}
                 repeat={0}
                 />
         </div>
