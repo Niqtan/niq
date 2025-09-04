@@ -7,21 +7,25 @@ export default function Footer() {
                     <p>I would love to hear from you! Feel free to reach out to my</p>
                     <div className="mt-5 flex  items-center justify-center">
                     <span>
-                        <a href="mailto:niqban123@gmail.com?subject=Hello&body=I%20want%20to%20connect%20with%20you" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 flex flex-col items-center">
-                        <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        viewBox="0 0 48 48" 
-                        width="48px" 
-                        height="48px"
-                        >
-                        <path fill="#e0e0e0" d="M44,38c0,2.2-1.8,4-4,4H8c-2.2,0-4-1.8-4-4V10c0-2.2,1.8-4,4-4h32c2.2,0,4,1.8,4,4V38z"/>
-                        <path fill="#d32f2f" d="M44,12l-20,15L4,12V10c0-2.2,1.8-4,4-4h32c2.2,0,4,1.8,4,4V12z"/>
-                        <path fill="#f5f5f5" d="M44,12L24,27L4,12v26c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V12z"/>
-                        <path fill="#d32f2f" d="M4,12l20,15L44,12L24,27L4,12z"/>
+                    <a href="mailto:niqban123@gmail.com?subject=Hello&body=I%20want%20to%20connect%20with%20you" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="hover:text-red-600 flex flex-col items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            width="48" height="48" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            stroke-width="2" 
+                            stroke-linecap="round" 
+                            stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
                         </svg>
-                        </a>
-                        Gmail
-                        </span>
+                    </a>
+                    Gmail
+                    </span>
+
                         <span className="ml-5 mr-5">
                         <a href="https://www.instagram.com/niqtan.mp4/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-600 flex flex-col items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 24 24">

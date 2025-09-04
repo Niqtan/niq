@@ -47,22 +47,22 @@ export default function About() {
                 />
                 <h1 className="text-9xl font-bold mb-6">I AM A...</h1>
             <div style={{cursor: "pointer", }} className="flex gap-5  text-[#39FF14] grid grid-cols-2" >
-                    <div id="hobbyist" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
+                    <div id="hobbyist" onClick={handleClick} className="h-[15rem] lg:h-[25rem] hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Hobbyist</p>
-                        <img src="./glasses.jpg" alt="Visually impaired wearing obstacle detection" className="w-sm h-[20rem] lg:h-[25rem] object-cover rounded-md "/>
+                        <img src="./glasses.jpg" alt="Visually impaired wearing obstacle detection" className="w-sm h-[15rem] lg:h-[25rem] object-cover rounded-md "/>
                     </div>
-                    <div id="programmer" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
+                    <div id="programmer" onClick={handleClick} className=" h-[15rem] hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Programmer</p>
-                        <img src="./About/programmer.png" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem] lg:h-[25rem] rounded-md "/>
+                        <img src="./About/programmer.png" alt="Visually impaired wearing obstacle detection" className=" object-cover w-sm h-[15rem] lg:h-[25rem] rounded-md "/>
                     </div>
-                     <div id="researcher" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
+                     <div id="researcher" onClick={handleClick} className="h-[15rem] hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Researcher</p>
-                        <img src="./About/researcher.jpg" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem] lg:h-[25rem] rounded-md "/>
+                        <img src="./About/researcher.jpg" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[15rem] lg:h-[25rem] rounded-md "/>
                     </div>
-                    <div id="filmmaker" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
+                    <div id="filmmaker" onClick={handleClick} className="h-[15rem]  lg:h-[25rem] hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Filmmaker</p>
                         <video
-                        className="object-cover w-sm h-[20rem] lg:h-[25rem]  rounded-md "
+                        className="object-cover w-sm h-[15rem] lg:h-[25rem]  rounded-md "
                         autoPlay
                         loop
                         muted 
@@ -70,13 +70,13 @@ export default function About() {
                         <source src="./About/advocate.mp4" type="video/mp4" />
                         </video>
                     </div>
-                    <div id="photographer" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
+                    <div id="photographer" onClick={handleClick} className="h-[15rem] hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Photographer</p>
-                        <img src="./About/photographer.JPG" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem]  lg:h-[25rem] rounded-md "/>
+                        <img src="./About/photographer.JPG" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[15rem]  lg:h-[25rem] rounded-md "/>
                     </div>
-                    <div  id="advocate" onClick={handleClick} className="hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
+                    <div  id="advocate" onClick={handleClick} className="h-[15rem] hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Student Leader</p>
-                        <img src="./About/github.jpg" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[20rem] lg:h-[25rem]  rounded-md "/>
+                        <img src="./About/github.jpg" alt="Visually impaired wearing obstacle detection" className="object-cover w-sm h-[15rem] lg:h-[25rem]  rounded-md "/>
                     </div>
                 </div>
             </div>
