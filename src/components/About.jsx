@@ -11,8 +11,6 @@ export default function About() {
     const [show, setShow] = useState(false)
     const [selectedId, setSelectedId] = useState("")
 
-    const toggleAbout = () => setShow(prev => !prev);
-
     function handleClick(e) {
         const id = e.currentTarget.id
         console.log(id)

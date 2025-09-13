@@ -33,7 +33,7 @@ export default function Hero() {
                 />
         </div>
         <p className="animate-bounce relative text-xl font-vt323 mb-6 p-4 z-20">
-          Student Engineer, Researcher, & Content Creator Highschooler
+          I make cool stuff & make the world look cooler
         </p>
       </div>
     </section>
