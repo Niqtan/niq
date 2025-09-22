@@ -47,6 +47,18 @@ export default [
     },
     {
         id: 4,
+        section: "programmer",
+        projimg: {
+            src: "./Contents/nexus.png",
+            alt: "Image of AI chatbot summarizing a webpage"
+        },
+        title: "Cypher",
+        link: "https://github.com/Niqtan/Cypher",
+        text: "A webpage summarizer for Chrome!",
+        status: "Done"
+    },
+    {
+        id: 5,
         section: "researcher",
         img: {
             src: "./About/researcher.jpg",
@@ -63,7 +75,7 @@ export default [
         status: "In Progress"
     },
     {
-        id: 5,
+        id: 6,
         section: "filmmaker",
         img: {
             src: "./Contents/staticfilm.jpg",
@@ -79,7 +91,7 @@ export default [
         text: "A vlog on an international hackathon at Github HQ.",
     },
     {
-        id: 6,
+        id: 7,
         section: "photographer",
         img: {
             src: "./About/photographer.JPG",
@@ -94,7 +106,7 @@ export default [
         text: "Taken in My Khe Beach Da Nang, Vietnam",
     },
     {
-        id: 7,
+        id: 8,
         section: "photographer",
         projimg: {
             src: "./Contents/photo2.JPG",
@@ -104,7 +116,7 @@ export default [
         text: "Taken near the Golden Bridge, San Francisco",
     },
         {
-        id: 8,
+        id: 9,
         section: "photographer",
         projimg: {
             src: "./Contents/photo3.jpg",
@@ -114,7 +126,7 @@ export default [
         text: "Taken on the roads of Hiroshima, Japan",
     },
     {
-        id: 9,
+        id: 10,
         section: "advocate",
         img: {
             src: "./About/github.jpg",
@@ -131,7 +143,7 @@ export default [
         status: "Jul 4, 2025 - Present"
     },
     {
-        id: 10,
+        id: 11,
         section: "advocate",
         projimg: {
             src: "./Contents/ACC.jpg",
@@ -142,7 +154,7 @@ export default [
         status: "SY 2025-2026"
     },
     {
-        id: 11,
+        id: 12,
         section: "advocate",
         projimg: {
             src: "./Contents/DEVCON.jpg",

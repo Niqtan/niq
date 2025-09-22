@@ -46,7 +46,7 @@ export default function About() {
                 repeat={0}
                 />
                 <h1 className="text-9xl font-bold mb-6">I AM A...</h1>
-            <div style={{cursor: "pointer", }} className="flex gap-5  text-[#39FF14] grid grid-cols-2" >
+            <div style={{cursor: "pointer", }} className="flex gap-12  text-[#39FF14] grid grid-cols-2" >
                     <div id="hobbyist" onClick={handleClick} className="h-[15rem] lg:h-[25rem] hover:animate-pulse active:animate-ping bg-black rounded-lg shadow-lg border border-gray-800 p-1">
                         <p className="text-sm">Hobbyist</p>
                         <img src="./glasses.jpg" alt="Visually impaired wearing obstacle detection" className="w-sm h-[15rem] lg:h-[25rem] object-cover rounded-md "/>
