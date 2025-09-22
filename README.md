@@ -1,12 +1,37 @@
-# React + Vite
+# Niq's Hacking Matrix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](public/image.png)
 
-Currently, two official plugins are available:
+## Demonstration
+https://niqtan.github.io/niq/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Aims
 
-## Expanding the ESLint configuration
+### "I make cool stuff & make the world look cooler"
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hiyaa!! This is my personal website. 
+
+This incldues information about what I'm up to, what I like doing, and my contact information!
+
+## How does it work?
+I mean it's kinda self-explanatory but....
+
+### About Section
+If you click the about section, you'll actually get to see my interest and hobbies. Additionally, lots of works as well!
+
+## Project Status
+Continuously updating this for any cool projects
+
+## Support
+
+For questions, suggestions, or collaborations, feel free to contact the engineeer:
+
+Niq Suguitan
+
+- Github: @Niqtan
+
+- Slack User: @Niq
+
+- Email: niqban123@gmail.com
+
+Thank you for checking out my website!
